@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character encoding for the document -->
+    <meta charset="utf-8">
+    <!-- Ensures compatibility with Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Responsive design settings -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Title of the webpage -->
+    <title>Weather App</title>
+    
+    <!-- Link to Bootstrap CSS for styling -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!-- Link to custom CSS file for additional styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Link to the main JavaScript file for functionality -->
+    <script type="text/javascript" src="js/scripts.js"></script>
+</head>
+<body>
+    <!-- Header section containing the app title and input form -->
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <!-- Title of the Weather App -->
+                <div class="uno">Weather App API</div>
+                
+                <!-- Form to enter the city name and get temperature -->
+                <form id="weatherForm">
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" required>
+                    <button type="submit">Get Temperature</button>
+                </form>
+                
+                <!-- Div to display the fetched weather data -->
+                <div id="weatherData"></div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
+
+
+
+
